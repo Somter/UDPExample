@@ -120,7 +120,7 @@ int main()
         }   
     }
 
-    cout << "Received from " << senderAddr.sin_addr.s_host << endl;          
+    cout << "Received from " << senderAddr.sin_addr.s_host << endl;            
     SetConsoleTextAttribute(h, number); 
     cout << firstWord << ": ";
     for (size_t i = 0; i < newWordCount; i++) {        
